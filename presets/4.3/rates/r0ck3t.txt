@@ -2,10 +2,10 @@
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RATES
-#$ STATUS: 
-#$ KEYWORDS: defaults, rates, actual
-#$ AUTHOR: Betaflight
-#$ DESCRIPTION: Default Betaflight rates - ACTUAL
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: defaults, rates, actual, r0ck3t
+#$ AUTHOR: r0ck3t
+#$ DESCRIPTION: r0ck3t Freestyle rates - ACTUAL
 #$ DESCRIPTION: Will be applied for the currently selected rate profile
 #$ DESCRIPTION: TPA values are not included
 #$ DESCRIPTION: Throttle limit and curve are not included
