@@ -1,7 +1,8 @@
-#$ TITLE: Default rates
+#$ TITLE: r0ck3t Freestyle Rates
+#$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RATES
-#$ STATUS: OFFICIAL
+#$ STATUS: 
 #$ KEYWORDS: defaults, rates, actual
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Default Betaflight rates - ACTUAL
@@ -17,8 +18,8 @@ set yaw_rc_rate = 7
 set roll_expo = 0
 set pitch_expo = 0
 set yaw_expo = 0
-set roll_srate = 67
-set pitch_srate = 67
+set roll_srate = 92
+set pitch_srate = 92
 set yaw_srate = 67
 set roll_rate_limit = 1998
 set pitch_rate_limit = 1998
