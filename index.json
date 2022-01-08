@@ -1492,11 +1492,10 @@
     },
     {
       "fullPath": "presets/4.3/rates/r0ck3t.txt",
-      "hash": "8b1501652f49ff8c7a7bc7fa68b421cc2b7f26886ba7608fba8328506da97d84",
+      "hash": "90301b4aaf732b9f1a74f5cf6d4f7343969caaf858c622c599450caf51ff0816",
       "options": [],
       "title": "r0ck3t Freestyle Rates",
       "firmware_version": [
-        "4.2",
         "4.3"
       ],
       "category": "RATES",
