@@ -129,6 +129,7 @@
       "Mark Spatz (UAV Tech)",
       "MinChan Kim",
       "NemesisXB",
+      "r0ck3t",
       "sugarK",
       "SupaflyFPV"
     ],
@@ -234,6 +235,7 @@
       "profile",
       "quaddiction",
       "quick",
+      "r0ck3t",
       "race",
       "race rates ctzsnooze actual",
       "racing",
@@ -1490,22 +1492,24 @@
     },
     {
       "fullPath": "presets/4.3/rates/r0ck3t.txt",
-      "hash": "968bc57fcba5bba104bddbb2f22892c503b95eabcf87b7b747d7c0ad32cbfa0b",
+      "hash": "8b1501652f49ff8c7a7bc7fa68b421cc2b7f26886ba7608fba8328506da97d84",
       "options": [],
-      "title": "Default rates",
+      "title": "r0ck3t Freestyle Rates",
       "firmware_version": [
+        "4.2",
         "4.3"
       ],
       "category": "RATES",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "defaults",
         "rates",
-        "actual"
+        "actual",
+        "r0ck3t"
       ],
-      "author": "Betaflight",
+      "author": "r0ck3t",
       "description": [
-        "Default Betaflight rates - ACTUAL",
+        "r0ck3t Freestyle rates - ACTUAL",
         "Will be applied for the currently selected rate profile",
         "TPA values are not included",
         "Throttle limit and curve are not included"
