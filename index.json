@@ -180,6 +180,7 @@
       "diatone",
       "disable",
       "divimath",
+      "DJI",
       "DShot telemetry",
       "dynamic",
       "ELRS",
@@ -809,6 +810,35 @@
       "author": "Betaflight",
       "description": [
         "Resets the OSD values back to Betaflight 4.3 defaults"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/osd/r0ck3t-dji.txt",
+      "hash": "5fa0bdeba1c00def5086079b694f65d2e723f16fd58474a515950f72523fab06",
+      "options": [
+        {
+          "name": "GPS",
+          "checked": false
+        },
+        {
+          "name": "ELRS dBm",
+          "checked": false
+        }
+      ],
+      "title": "r0ck3t DJI 4.3 OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "r0ck3t",
+        "OSD",
+        "DJI"
+      ],
+      "author": "r0ck3t",
+      "description": [
+        "r0ck3t DJI OSD for Betaflight 4.3"
       ]
     },
     {
@@ -1492,7 +1522,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/r0ck3t.txt",
-      "hash": "90301b4aaf732b9f1a74f5cf6d4f7343969caaf858c622c599450caf51ff0816",
+      "hash": "1960f2c484657efc54e4916dea87680eac2262409bdebf28baedde0441bf8651",
       "options": [],
       "title": "r0ck3t Freestyle Rates",
       "firmware_version": [
