@@ -793,6 +793,28 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/modes/r0ck3t.txt",
+      "hash": "aa070b9a0dbd9337e2b6f6e4ebdfcdbbcd627e59b688dcbda449ad65c4275497",
+      "options": [],
+      "title": "r0ck3t 4.3 Modes",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "mode",
+        "modes",
+        "aux",
+        "switch",
+        "r0ck3t"
+      ],
+      "author": "r0ck3t",
+      "description": [
+        "Modes for 4.3"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/osd/defaults.txt",
       "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
       "options": [],
@@ -914,6 +936,29 @@
       "discussion": "https://github.com/betaflight/firmware-presets/pull/110",
       "include": [
         "presets/4.3/other/reset_blackbox.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/other/r0ck3t_other.txt",
+      "hash": "c329cbe1f68f56c6dd089a67c8836566e8ccc271e4531f02ed1ed225957c6310",
+      "options": [
+        {
+          "name": "Internal Flash BB?",
+          "checked": false
+        }
+      ],
+      "title": "Other 4.3 Stuff",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "r0ck3t"
+      ],
+      "author": "r0ck3t",
+      "description": [
+        "Other stuff"
       ]
     },
     {
