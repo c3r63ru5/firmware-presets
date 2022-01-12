@@ -1,0 +1,27 @@
+#$ TITLE: Other 4.3 Stuff
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: r0ck3t
+#$ AUTHOR: r0ck3t
+#$ DESCRIPTION: Other stuff
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -BAT_CRIT_LOW
+beeper -BAT_LOW
+beeper -SYSTEM_INIT
+beeper -ON_USB
+
+# map
+map TAER1234
+
+# master
+set fpv_mix_degrees = 30
+set small_angle = 180
+set name = Rx
+
+#$ OPTION BEGIN (UNCHECKED): Internal Flash BB?
+set blackbox_p_ratio = 64
+set debug_mode = GYRO_SCALED
+#$ OPTION END
