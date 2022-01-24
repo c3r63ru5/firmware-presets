@@ -835,6 +835,39 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/osd/r0ck3t-dji-elrs.txt",
+      "hash": "ccf827784cc5cd0dae627b94694855da99688d57b2a9d2b35de5193399e7a1ec",
+      "options": [
+        {
+          "name": "GPS",
+          "checked": false
+        },
+        {
+          "name": "CRAFT NAME WARNINGS",
+          "checked": false
+        },
+        {
+          "name": "ELRS dBm",
+          "checked": false
+        }
+      ],
+      "title": "r0ck3t DJI 4.3 OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "r0ck3t",
+        "OSD",
+        "DJI"
+      ],
+      "author": "r0ck3t",
+      "description": [
+        "r0ck3t DJI OSD for Betaflight 4.3"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/osd/r0ck3t-dji.txt",
       "hash": "5fa0bdeba1c00def5086079b694f65d2e723f16fd58474a515950f72523fab06",
       "options": [
