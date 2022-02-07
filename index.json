@@ -148,6 +148,7 @@
       "BMSThomas",
       "ctzsnooze",
       "Directory",
+      "DusKing1",
       "DusKing1 (Hugo Chiang), Pitronic",
       "Evan Turner (Headsup)",
       "FPVian",
@@ -247,6 +248,7 @@
       "GHST",
       "GPS",
       "gyro",
+      "gyroflow",
       "gyros",
       "gyroscope",
       "HD",
@@ -274,6 +276,7 @@
       "mamba",
       "meteor",
       "MinChan",
+      "minimal",
       "mode",
       "modes",
       "MultiGP",
@@ -808,6 +811,25 @@
         "sugarK"
       ],
       "author": "sugarK",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/gyroflow_minimal.txt",
+      "hash": "94bb3aa606e04e3e5e01756bc6ceaa5ed6fbcd4311260b18b4b3c2a65166f75d",
+      "title": "Gyroflow minimal settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "gyroflow",
+        "minimal",
+        "blackbox",
+        "logging",
+        "log"
+      ],
+      "author": "DusKing1",
       "priority": 0
     },
     {
