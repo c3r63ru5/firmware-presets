@@ -5,6 +5,7 @@
 #$ KEYWORDS: r0ck3t, OSD, DJI, ELRS
 #$ AUTHOR: r0ck3t
 #$ DESCRIPTION: r0ck3t DJI OSD for Betaflight 4.3
+#$ INCLUDE: presets/4.3/rates/defaults.txt
 
 set osd_units = METRIC
 set osd_vbat_pos = 452
