@@ -2,16 +2,16 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OSD
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: r0ck3t, OSD, DJI
+#$ KEYWORDS: r0ck3t, OSD, DJI, ELRS
 #$ AUTHOR: r0ck3t
 #$ DESCRIPTION: r0ck3t DJI OSD for Betaflight 4.3
 
 set osd_units = METRIC
-set osd_vbat_pos = 14788
-set osd_rssi_pos = 14806
-set osd_current_pos = 14436
+set osd_vbat_pos = 452
+set osd_rssi_pos = 470
+set osd_current_pos = 14828
 set osd_mah_drawn_pos = 14797
-set osd_avg_cell_voltage_pos = 14756
+set osd_avg_cell_voltage_pos = 14804
 set osd_battery_usage_pos = 235
 
 #$ OPTION BEGIN (UNCHECKED): GPS
@@ -21,7 +21,21 @@ set osd_home_dist_pos = 2134
 set osd_altitude_pos = 2125
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): CRAFT NAME WARNINGS
+set osd_warn_batt_not_full = OFF
+set osd_warn_launch_control = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_warn_rssi = ON
+set osd_warn_link_quality = ON
+set osd_link_quality_pos = 32
+set osd_rssi_dbm_pos = 0
+set osd_craft_name_pos = 14784
+set osd_warnings_pos = 14336
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): ELRS dBm
+set osd_warn_rssi = OFF
 set osd_warn_rssi_dbm = ON
 set osd_rssi_dbm_alarm = -102
 #$ OPTION END
