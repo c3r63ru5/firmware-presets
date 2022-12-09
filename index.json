@@ -237,6 +237,7 @@
       "filtering",
       "filters",
       "five33",
+      "FPV.WTF",
       "fpvian",
       "freedom",
       "freedom spec",
@@ -758,6 +759,25 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/r0ck3t-dji-fpvwtf.txt",
+      "hash": "b154b41461b93a2b6265288f25d3a678bfe74a7a97a5f0f59378647ac446817a",
+      "title": "r0ck3t DJI FPV.WTF OSD Settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "r0ck3t",
+        "OSD",
+        "DJI",
+        "ELRS",
+        "FPV.WTF"
+      ],
+      "author": "r0ck3t",
       "priority": 0
     },
     {
