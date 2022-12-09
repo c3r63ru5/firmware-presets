@@ -1,0 +1,78 @@
+#$ TITLE: r0ck3t DJI FPV.WTF OSD Settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: r0ck3t, OSD, DJI, ELRS, FPV.WTF
+#$ AUTHOR: r0ck3t
+#$ DESCRIPTION: r0ck3t DJI FPV.WTF OSD for Betaflight 4.3
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+set osd_vbat_pos = 452
+set osd_rssi_pos = 470
+set osd_current_pos = 14369
+set osd_mah_drawn_pos = 14795
+set osd_avg_cell_voltage_pos = 14804
+set osd_battery_usage_pos = 235
+set osd_flip_arrow_pos = 14446
+set osd_warnings_pos = 14570
+set osd_warn_batt_warning = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set report_cell_voltage = ON
+set osd_stat_bb_no = OFF
+
+set osd_craft_name_pos = 448
+
+
+#$ OPTION_GROUP BEGIN: FPV.WTF MSP OSD
+  #$ OPTION BEGIN (UNCHECKED): UART 2
+      set osd_displayport_device = MSP
+      set vcd_video_system = PAL
+      set osd_throttle_pos = 14764
+      set displayport_msp_serial = 1
+  #$ OPTION END
+  #$ OPTION BEGIN (UNCHECKED): UART 3
+      set osd_displayport_device = MSP
+      set vcd_video_system = PAL
+      set osd_throttle_pos = 14764
+      set displayport_msp_serial = 2
+  #$ OPTION END
+  #$ OPTION BEGIN (UNCHECKED): UART 4
+      set osd_displayport_device = MSP
+      set vcd_video_system = PAL
+      set osd_throttle_pos = 14764
+      set displayport_msp_serial = 3
+  #$ OPTION END
+  #$ OPTION BEGIN (UNCHECKED): UART 5
+      set osd_displayport_device = MSP
+      set vcd_video_system = PAL
+      set osd_throttle_pos = 14764
+      set displayport_msp_serial = 4
+  #$ OPTION END
+  #$ OPTION BEGIN (UNCHECKED): UART 6
+      set osd_displayport_device = MSP
+      set vcd_video_system = PAL
+      set osd_throttle_pos = 14764
+      set displayport_msp_serial = 5
+  #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION BEGIN (CHECKED): R9 ELRS 200Hz (-112 dBm)
+set osd_warn_rssi = OFF
+set osd_warn_rssi_dbm = ON
+set osd_rssi_dbm_alarm = -102
+set osd_warn_link_quality = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_min_link_quality = ON
+set osd_stat_min_rssi_dbm = ON
+set osd_link_quality_pos = 14753
+set osd_rssi_dbm_pos = 14785
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GPS
+set osd_gps_speed_pos = 2125
+set osd_gps_sats_pos = 2135
+set osd_home_dist_pos = 2093
+set osd_altitude_pos = 2103
+#$ OPTION END
+
