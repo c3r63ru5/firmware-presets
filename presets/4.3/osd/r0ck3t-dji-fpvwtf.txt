@@ -14,15 +14,14 @@ set osd_mah_drawn_pos = 14795
 set osd_avg_cell_voltage_pos = 14804
 set osd_battery_usage_pos = 235
 set osd_flip_arrow_pos = 14446
+set osd_craft_name_pos = 448
 set osd_warnings_pos = 14570
+set osd_warn_batt_not_full = OFF
 set osd_warn_batt_warning = OFF
 set osd_warn_no_gps_rescue = OFF
 set osd_warn_gps_rescue_disabled = OFF
 set report_cell_voltage = ON
 set osd_stat_bb_no = OFF
-
-set osd_craft_name_pos = 448
-
 
 #$ OPTION_GROUP BEGIN: FPV.WTF MSP OSD
   #$ OPTION BEGIN (UNCHECKED): UART 2
