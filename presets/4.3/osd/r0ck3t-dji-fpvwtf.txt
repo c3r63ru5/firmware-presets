@@ -10,7 +10,7 @@
 set osd_vbat_pos = 341
 set osd_rssi_pos = 470
 set osd_current_pos = 14369
-set osd_tim_2_pos = 14772
+set osd_tim_2_pos = 14804
 set osd_mah_drawn_pos = 14402
 set osd_avg_cell_voltage_pos = 14804
 set osd_battery_usage_pos = 174
@@ -33,31 +33,31 @@ set osd_stat_bb_no = OFF
   #$ OPTION BEGIN (UNCHECKED): UART 2
       set osd_displayport_device = MSP
       set vcd_video_system = PAL
-      set osd_throttle_pos = 14445
+      set osd_throttle_pos = 14444
       set displayport_msp_serial = 1
   #$ OPTION END
   #$ OPTION BEGIN (UNCHECKED): UART 3
       set osd_displayport_device = MSP
       set vcd_video_system = PAL
-      set osd_throttle_pos = 14445
+      set osd_throttle_pos = 14444
       set displayport_msp_serial = 2
   #$ OPTION END
   #$ OPTION BEGIN (UNCHECKED): UART 4
       set osd_displayport_device = MSP
       set vcd_video_system = PAL
-      set osd_throttle_pos = 14445
+      set osd_throttle_pos = 14444
       set displayport_msp_serial = 3
   #$ OPTION END
   #$ OPTION BEGIN (UNCHECKED): UART 5
       set osd_displayport_device = MSP
       set vcd_video_system = PAL
-      set osd_throttle_pos = 14445
+      set osd_throttle_pos = 14444
       set displayport_msp_serial = 4
   #$ OPTION END
   #$ OPTION BEGIN (UNCHECKED): UART 6
       set osd_displayport_device = MSP
       set vcd_video_system = PAL
-      set osd_throttle_pos = 14445
+      set osd_throttle_pos = 14444
       set displayport_msp_serial = 5
   #$ OPTION END
 #$ OPTION_GROUP END
