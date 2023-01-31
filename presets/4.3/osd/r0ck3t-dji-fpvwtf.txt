@@ -33,31 +33,31 @@ set osd_stat_bb_no = OFF
   #$ OPTION BEGIN (UNCHECKED): UART 2
       set osd_displayport_device = MSP
       set vcd_video_system = PAL
-      set osd_throttle_pos = 14362
+      set osd_throttle_pos = 14445
       set displayport_msp_serial = 1
   #$ OPTION END
   #$ OPTION BEGIN (UNCHECKED): UART 3
       set osd_displayport_device = MSP
       set vcd_video_system = PAL
-      set osd_throttle_pos = 14362
+      set osd_throttle_pos = 14445
       set displayport_msp_serial = 2
   #$ OPTION END
   #$ OPTION BEGIN (UNCHECKED): UART 4
       set osd_displayport_device = MSP
       set vcd_video_system = PAL
-      set osd_throttle_pos = 14362
+      set osd_throttle_pos = 14445
       set displayport_msp_serial = 3
   #$ OPTION END
   #$ OPTION BEGIN (UNCHECKED): UART 5
       set osd_displayport_device = MSP
       set vcd_video_system = PAL
-      set osd_throttle_pos = 14362
+      set osd_throttle_pos = 14445
       set displayport_msp_serial = 4
   #$ OPTION END
   #$ OPTION BEGIN (UNCHECKED): UART 6
       set osd_displayport_device = MSP
       set vcd_video_system = PAL
-      set osd_throttle_pos = 14362
+      set osd_throttle_pos = 14445
       set displayport_msp_serial = 5
   #$ OPTION END
 #$ OPTION_GROUP END
