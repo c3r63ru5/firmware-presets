@@ -1,0 +1,68 @@
+#$ TITLE: r0ck3t DJI FPV.WTF OSD Settings
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: r0ck3t, OSD, DJI, ELRS, FPV.WTF
+#$ AUTHOR: r0ck3t
+#$ DESCRIPTION: r0ck3t DJI FPV.WTF OSD for Betaflight 4.4
+# There is no default preset for 4.4 OSD
+##$ INCLUDE: presets/4.4/osd/defaults.txt
+
+# GENERAL OSD POSITIONS
+set osd_current_pos = 14371
+set osd_tim_2_pos = 16017
+set osd_mah_drawn_pos = 14405
+set osd_avg_cell_voltage_pos = 15985
+set osd_battery_usage_pos = 174
+set osd_flip_arrow_pos = 14429
+set osd_craft_name_pos = 448
+set osd_warnings_pos = 14777
+# OLD NON ELRS (Old NonHD)
+#set osd_vbat_pos = 341
+#set osd_rssi_pos = 470
+
+# GENERAL WARNINGS
+set osd_warn_bitmask = 50153
+# OLD GENERAL WARNINGS
+#set osd_warn_batt_not_full = OFF
+#set osd_warn_batt_warning = OFF
+#set osd_warn_visual_beeper = OFF
+#set osd_warn_launch_control = OFF
+#set osd_warn_no_gps_rescue = OFF
+#set osd_warn_gps_rescue_disabled = OFF
+
+# ENABLE CELL INSTEAD VBAT
+set report_cell_voltage = ON
+
+# GENERAL STATS
+set osd_stat_bitmask = 8525356
+# OLD GENERAL STATS
+#set osd_stat_bb_no = OFF
+
+# OSD DISPLAYPORT SETTINGS
+set osd_displayport_device = MSP
+set osd_canvas_width = 60
+set osd_canvas_height = 22
+set vcd_video_system = HD
+
+#$ OPTION BEGIN (CHECKED): R9 ELRS 200Hz (-112 dBm)
+set osd_rssi_dbm_alarm = -102
+set osd_link_quality_pos = 14972
+set osd_rssi_dbm_pos = 15004
+# OLD ELRS WARN
+#set osd_warn_rssi = OFF
+#set osd_warn_rssi_dbm = ON
+#set osd_warn_link_quality = ON
+# OLD ELRS STAT
+#set osd_stat_min_rssi = OFF
+#set osd_stat_min_link_quality = ON
+#set osd_stat_min_rssi_dbm = ON
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GPS
+set osd_gps_speed_pos = 2108
+set osd_gps_sats_pos = 3121
+set osd_home_dist_pos = 3154
+#OLD Alt POS
+#set osd_altitude_pos = 2134
+#$ OPTION END
