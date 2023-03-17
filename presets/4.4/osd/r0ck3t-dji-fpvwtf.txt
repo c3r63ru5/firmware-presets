@@ -63,6 +63,5 @@ set osd_rssi_dbm_pos = 15004
 set osd_gps_speed_pos = 2108
 set osd_gps_sats_pos = 3121
 set osd_home_dist_pos = 3154
-#OLD Alt POS
-#set osd_altitude_pos = 2134
+set osd_altitude_pos = 3186
 #$ OPTION END
