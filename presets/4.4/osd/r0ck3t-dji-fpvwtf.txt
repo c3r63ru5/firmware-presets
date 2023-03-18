@@ -18,26 +18,17 @@ set osd_flip_arrow_pos = 14429
 set osd_craft_name_pos = 448
 set osd_warnings_pos = 14777
 # OLD NON ELRS (Old NonHD)
-#set osd_vbat_pos = 341
 #set osd_rssi_pos = 470
 
 # GENERAL WARNINGS
 set osd_warn_bitmask = 50153
-# OLD GENERAL WARNINGS
-#set osd_warn_batt_not_full = OFF
-#set osd_warn_batt_warning = OFF
-#set osd_warn_visual_beeper = OFF
-#set osd_warn_launch_control = OFF
-#set osd_warn_no_gps_rescue = OFF
-#set osd_warn_gps_rescue_disabled = OFF
 
 # ENABLE CELL INSTEAD VBAT
 set report_cell_voltage = ON
 
 # GENERAL STATS
-set osd_stat_bitmask = 8525356
-# OLD GENERAL STATS
-#set osd_stat_bb_no = OFF
+# Stat Bitmask for ELRS (no GPS)
+set osd_stat_bitmask = 8525476
 
 # OSD DISPLAYPORT SETTINGS
 set osd_displayport_device = MSP
@@ -64,4 +55,6 @@ set osd_gps_speed_pos = 2108
 set osd_gps_sats_pos = 3121
 set osd_home_dist_pos = 3154
 set osd_altitude_pos = 3186
+# Stat Bitmask for GPS+ELRS
+set osd_stat_bitmask = 8525356
 #$ OPTION END
